@@ -1,0 +1,4 @@
+# Install with:  pip install -r requirements.txt
+#
+numpy>=1.21
+pymining>=0.2
