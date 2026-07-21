@@ -73,7 +73,6 @@ pip install -r requirements.txt
 ├── run_lpwe_variants.py
 │
 ├── create_files.py                          # Dataset generator
-├── script_execution_guide                   # Additional execution guide
 │
 └── GT_and_CSV_files/                        # Datasets used in the paper
     ├── ground_truth_sequences.csv
