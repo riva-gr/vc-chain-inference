@@ -210,7 +210,7 @@ python3 run_lpwe_variants.py \
 
 ## Datasets
 
-Dataset files follow the naming convention `crs<percentage>_(<experiment>).csv`, with one wallet per row. Ground-truth chains are stored in `ground_truth_sequences.csv`, with one chain per row.
+The script create_files.py creates the Dataset files. The generator is deterministically seeded, so a given configuration produces byte-identical files on any machine. Dataset files follow the naming convention `crs<percentage>_(<experiment>).csv`, with one wallet per row. Ground-truth chains are stored in `ground_truth_sequences.csv`, with one chain per row.
 
 | Property | Value |
 |---|---|
@@ -220,7 +220,6 @@ Dataset files follow the naming convention `crs<percentage>_(<experiment>).csv`,
 | Wallets per dataset | 1,000 |
 | Default miscellaneous/noise pool | 100 credentials |
 
-The generator is deterministically seeded, so a given configuration produces byte-identical files on any machine.
 
 ## Implementation notes
 
